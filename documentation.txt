@@ -1,0 +1,28 @@
+How to read our code:
+---------------------
+
+Our code is written in two different languages. Why?
+--> Arduino uses the C/C++ dialect (not exactly C/C++, but very close).
+--> Raspberry PI, on the other hand, uses Python as its standard language.
+--> Code files ending in .ino, .c, or .cpp are written in C/C++, and files ending in .py are written in Python
+
+
+The process:
+-------------
+
+--> All of our LED's and switches are hardcoded in Arduino C++
+--> They are interfaced with Raspberry's python files to set up the general purpose inputs & outputs
+--> The Raspberry PI uses its sound channels to then play sounds (output) corresponding to the inputs
+--> coming from the Arduino (buttons & switches)
+
+Additional features:
+--------------------
+
+--> We have implemented a panel with Potentiometers (variable resistors) and LED's.
+--> There are three LED's next to each potentiometer. As the knob is turned, gradually all 3 LED's will turn on. 
+
+
+
+
+
+
