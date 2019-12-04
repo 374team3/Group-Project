@@ -1,29 +1,40 @@
 # Functional Requirements Document
 
-| Version | Description of Change |            Author(s)            |    Date    |
-|---------|-----------------------|---------------------------------|------------|
-|   4.0   | Milestone 4.0 update  | Ahras, (Jack) Xiao Chu, Anupras | 2019-12-03 |
+**TITLE:** FRD Milestone
 
-**TITLE:** FRD Milestone-4
-**Team names:** SpaceMinds
-**Team members:** Ahras Ali, Xiao Chu Zhao, Anupras Burokas
+**Team names:** Space Minds
+
+**Team members:** Anupras Burokas, Ahras Ali, Xiao Chu Zhao
+
 **GitHub URL:**[ https://github.com/374team3/Group-Project](https://github.com/374team3/Group-Project)
 
+
+
+| Version |     Description of Change     |            Author(s)            |    Date    |
+|---------|-------------------------------|---------------------------------|------------|
+|   1.0   |Milestone 1.0 (initial) upload | Ahras, (Jack) Xiao Chu, Anupras | 2019-10-02 |
+|   2.0   |     Milestone 2.0 update      | Ahras, (Jack) Xiao Chu, Anupras | 2019-10-23 |
+|   3.0   |     Milestone 3.0 update      | Ahras, (Jack) Xiao Chu, Anupras | 2019-11-13 |
+|   4.0   | Milestone 4.0 (final) update  | Ahras, (Jack) Xiao Chu, Anupras | 2019-12-03 |
+
+
+
+
 # 1. Introduction 
-The project is an imitation console of the NASA mission controller designed with the idea to inspire and educate the younger generation about the mysteries of outer-space exploration.  It is a life-size model with which the user can interact by using the buttons and switches so they can fully immerse themselves in the experience. With the ability for the users to choose their own combinations of buttons and switches, each leading to a different outcome, the possibilities are endless.
+The project is an imitation console of the NASA mission controller designed with the idea to inspire and educate the younger generations about the mysteries of outer-space exploration.  It is a life-size model with which the user can interact by using the various buttons and switches so they can fully immerse themselves in the experience. With the ability for the users to choose their own combinations of buttons and switches, each leading to a different outcome, the possibilities are endless.
+
 # 1.1 Purpose
 The purpose of this project is to bring space exploration related themes and games closer to the younger generation, and in turn, help raise a generation of budding astronauts and aerospace scientists.
 
 # 1.2 Scope
-We are building a small-scope project which will be made entirely out of hardware for the user's part.
+We are building a small-scope project which will be made out of both hardware and software.
 
 # 1.3 Background
-Our organization wants to build a console for kids to be able to immerse themselves with the adventures of space travel.
+Our organization wants to build a console for younger children to be able to immerse themselves with the adventures of space travel.
 
 # 1.4 References
 GitHub project layout:
 
-Meeting summaries 
 
 Documents 
 Blueprints > hardware design
@@ -34,8 +45,8 @@ Milestone presentations
 Diagrams > MVC 
 				> UML
 				> lo-fidelity sketches
-group reflections 
 KanBan board
+
 In our project, we are using blueprints to track different sections and stages of the console, this includes hardware design, which involves the physical dimensions and the weight of the wood structure. Our software design documents contains the pseudo-code and the logic communications between the Arduino and Raspberry Pi 4. Our electrical design will display the architecture of the wiring of all the buttons, switches, resistos and microcontrollers/ processors.
 
 # 1.5 Assumptions and constraints
@@ -44,14 +55,14 @@ The task level assumption of the project is to be able to play a sound when a bu
 
 # 1.5 Assumptions
 1.5.1 Assumptions 
-• We assume that we collect all the required parts and necessary workspace.
+• We assume that we collect all the required parts and necessary tools.
+• We assume that we do not run into any major roadblocks which would set us back
 
 1.5.2 Constraints 
 • The number of input/output connections on our Arduino MEGA and Raspberry PI microcontrollers.
 • Will limit the functionality/features
 
  1.6 Document Overview
-• Meeting summaries 
 • Documents 
 • Blueprints > hardware design
 				> software design
@@ -65,7 +76,7 @@ The task level assumption of the project is to be able to play a sound when a bu
 
  2 METHODOLOGY
  • Research & examine Functional Requirement Documents of similar scale projects
- • Use resources such as WikiPedia and YouTube to help us write the FRD
+ • Use resources such as Wikipedia and YouTube to help us write the FRD
 
 3 FUNCTIONAL REQUIREMENTS 
 
@@ -75,10 +86,12 @@ The task level assumption of the project is to be able to play a sound when a bu
  3.2 User Requirements
 • User turns on the system with a switch on the backside
 • User presses various combinations of buttons and switches
+• Or, the user reads the "Official Launch Guide" made specifically for our console, to find out
+  the correct launching sequence, and learn what each of the acronyms stand for
 • User observes and hears various videos and sounds corresponding to their choices
 
  3.3 Functional Requirements
-• System (Arduino MEGA and Raspberry PI) boots up and loads entry code once user toggles the switch 
+• System (Arduino MEGA and Raspberry PI) boots up and loads entry code once user toggles the main console switch 
 • The microcontrollers handle various combinations of inputs (switches/buttons) and process the appropriate output
 • Lights and sounds happen according to the input combinations
 
