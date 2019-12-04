@@ -2,9 +2,9 @@
 
 | Version | Description of Change |            Author(s)            |    Date    |
 |---------|-----------------------|---------------------------------|------------|
-|   3.0   | Milestone 3.0 update  | Ahras, (Jack) Xiao Chu, Anupras | 2019-11-13 |
+|   4.0   | Milestone 4.0 update  | Ahras, (Jack) Xiao Chu, Anupras | 2019-12-03 |
 
-**TITLE:** FRD Milestone-3
+**TITLE:** FRD Milestone-4
 **Team names:** SpaceMinds
 **Team members:** Ahras Ali, Xiao Chu Zhao, Anupras Burokas
 **GitHub URL:**[ https://github.com/374team3/Group-Project](https://github.com/374team3/Group-Project)
