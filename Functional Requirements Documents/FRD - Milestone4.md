@@ -53,7 +53,6 @@ In our project, we are using blueprints to track different sections and stages o
 
 The task level assumption of the project is to be able to play a sound when a button is pressed or when a switch is closed. The constraint with our project are the digital inputs and outputs of the Arduino board. The main failure that we could run in would be the Arduino not being able to supply enough power to run all the LEDs and buttons. 
 
-# 1.5 Assumptions
 1.5.1 Assumptions 
 • We assume that we collect all the required parts and necessary tools.
 • We assume that we do not run into any major roadblocks which would set us back
@@ -74,11 +73,12 @@ The task level assumption of the project is to be able to play a sound when a bu
 • Group reflections 
 • KanBan board
 
- 2 METHODOLOGY
+ # 2 Methodology
+ 
  • Research & examine Functional Requirement Documents of similar scale projects
  • Use resources such as Wikipedia and YouTube to help us write the FRD
 
-3 FUNCTIONAL REQUIREMENTS 
+# 3 Functional Requirements 
 
 3.1 Context
 • User communicates directly with the console interface
